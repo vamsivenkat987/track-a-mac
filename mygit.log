@@ -1,0 +1,71 @@
+commit 0bc14a9abb6eff836cf5558171ee344289c4b625
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:34:34 2020 +0100
+
+    modified backend file with multiple vlans
+
+commit bd0ed386416ee9ca18f431c2339fd713b9109c7f
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:20:36 2020 +0100
+
+    added python packages and ubuntu packages files
+
+commit 8ad51ae63ac3e220cfa2c32368e1fe99b038b0d0
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:13:56 2020 +0100
+
+    added scripting files
+
+commit 8b8476faee4d2f756af0fd2bc39497fa2c162c55
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:13:11 2020 +0100
+
+    added backend file
+
+commit 642589459348cfa0266dfeba4418269a130fe493
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:12:15 2020 +0100
+
+    added search.php
+
+commit 33661fe9838816dcf04a92ce5f5dbde13624db71
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:09:14 2020 +0100
+
+    added removeDevices.php
+
+commit 8a0fd273aaf821e1220a5a90912dc83aefa1ac4f
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:07:52 2020 +0100
+
+    added listDevs.php
+
+commit 28c4d102c810366c74926456c2c17ab0a20f1c79
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 22:06:39 2020 +0100
+
+    added addDevice.php
+
+commit 384844a1845a65cede692195b78614ee2198dbc4
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 21:59:56 2020 +0100
+
+    added config.php
+
+commit 89ee720ae64b8d60790700f6ce469f2ab9b101d8
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 21:25:56 2020 +0100
+
+    Add list
+
+commit 2cc95faa1ea3372b6aea03ff42ae5e90f254c056
+Author: vasudha2796 <vasudha.dasari@yahoo.com>
+Date:   Sun Dec 13 21:08:58 2020 +0100
+
+    added config.php
+
+commit 56c8059d6ea1d57b4905753f6b9046406f5c6228
+Author: vasudha2796 <37367896+vasudha2796@users.noreply.github.com>
+Date:   Sun Dec 13 19:54:17 2020 +0100
+
+    Initial commit
