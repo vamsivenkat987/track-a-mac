@@ -5,7 +5,7 @@ import sqlite3
 from easysnmp import Session
 from sqlite3 import Error
 
-VL = 'DEFAULT_VLAN(1)'
+VL = 'DEFAULT_VLAN()'
 def  create_connection(db_file):
     connection = None
     try:
@@ -87,14 +87,14 @@ def probing_with_oids(ip, port, community, version, connection):
                     orghex = ''
                     listvls = list(combine)
                 for i in range(len(listvls)):
-                    if listvls[i] == '1':
-                        num = i + 1
-                        vlanname.append(str(vname) + '(' + vnum + ')')
-                        vlansnum.append(num)
+                    num = i + 1
+                    vlanname.append(str(vname))
+                    vlansnum.append(num)
         for i in range(len(vlansnum)):
             portlan = '1'
             connection.execute("update List set VLANS = ? where port=?", (vlanname[i],vlansnum[i]))
-            connection.commit()
+            time.sleep(0.005)
+	    connection.commit()
     except Exception as e:
         print(str(e)+' '+str(ip)+":"+str(port))
     finish = str(datetime.fromtimestamp(int(time.time())))
@@ -107,3 +107,4 @@ if  __name__=='__main__':
     while True:
         create_connection('tracamac.db')
         time.sleep(60)
+
